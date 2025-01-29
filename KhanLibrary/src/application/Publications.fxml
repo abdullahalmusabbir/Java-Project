@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="655.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PublicationsController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="55.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Publications">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <TableView fx:id="table" prefHeight="534.0" prefWidth="702.0">
+         <columns>
+            <TableColumn fx:id="title" prefWidth="199.0" text="Title" />
+            <TableColumn fx:id="category" prefWidth="114.5" text="Catagory" />
+            <TableColumn fx:id="authors" minWidth="0.0" prefWidth="158.5" text="Author" />
+            <TableColumn fx:id="publisher" prefWidth="198.5" text="Publisher Name" />
+            <TableColumn fx:id="publishYear" minWidth="0.0" prefWidth="104.5" text="Publish Year" />
+         </columns>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+   </padding>
+</VBox>

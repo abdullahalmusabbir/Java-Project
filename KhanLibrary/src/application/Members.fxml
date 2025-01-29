@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="655.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MembersController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="55.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Members">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <TableView fx:id="table" prefHeight="534.0" prefWidth="702.0">
+         <columns>
+            <TableColumn fx:id="memberId" prefWidth="209.0" text="Member ID" />
+            <TableColumn fx:id="memberName" prefWidth="566.0" text="Member Name" />
+         </columns>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+   </padding>
+</VBox>
