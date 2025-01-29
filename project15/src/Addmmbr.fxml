@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddMmbrController">
+   <children>
+      <ImageView fitHeight="649.0" fitWidth="750.0" layoutX="-2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download%20(1).jpeg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="sname" alignment="CENTER" layoutX="14.0" layoutY="34.0" prefHeight="27.0" prefWidth="216.0" promptText="Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sage" alignment="CENTER" layoutX="14.0" layoutY="78.0" prefHeight="27.0" prefWidth="216.0" promptText="Age">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sdesignation" alignment="CENTER" layoutX="14.0" layoutY="124.0" prefHeight="27.0" prefWidth="216.0" promptText="Designation">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="snumber" alignment="CENTER" layoutX="14.0" layoutY="178.0" prefHeight="27.0" prefWidth="216.0" promptText="Phone Number">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Button alignment="CENTER" layoutX="38.0" layoutY="323.0" mnemonicParsing="false" onAction="#addsalaryemployee" prefHeight="26.0" prefWidth="167.0" text="Add Salaried Employee">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="292.0" layoutY="407.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="167.0" text="Back">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="smnthlysalary" alignment="CENTER" layoutX="14.0" layoutY="229.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter monthly salary">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="hourlyrate" alignment="CENTER" layoutX="268.0" layoutY="229.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter hourly rate">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="basesalary" alignment="CENTER" layoutX="513.0" layoutY="230.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter base salary">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="comisonper" alignment="CENTER" layoutX="512.0" layoutY="274.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter commission percentage">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="hnumber" alignment="CENTER" layoutX="268.0" layoutY="178.0" prefHeight="27.0" prefWidth="216.0" promptText="Phone Number">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="hdesignation" alignment="CENTER" layoutX="268.0" layoutY="126.0" prefHeight="27.0" prefWidth="216.0" promptText="Designation">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="hage" alignment="CENTER" layoutX="266.0" layoutY="78.0" prefHeight="27.0" prefWidth="216.0" promptText="Age">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="hname" alignment="CENTER" layoutX="268.0" layoutY="34.0" prefHeight="27.0" prefWidth="216.0" promptText="Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cname" alignment="CENTER" layoutX="512.0" layoutY="34.0" prefHeight="27.0" prefWidth="216.0" promptText="Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cage" alignment="CENTER" layoutX="512.0" layoutY="78.0" prefHeight="27.0" prefWidth="216.0" promptText="Age">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cdesignation" alignment="CENTER" layoutX="512.0" layoutY="125.0" prefHeight="27.0" prefWidth="216.0" promptText="Designation">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cnumber" alignment="CENTER" layoutX="512.0" layoutY="178.0" prefHeight="27.0" prefWidth="216.0" promptText="Phone Number">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Button alignment="CENTER" layoutX="292.0" layoutY="323.0" mnemonicParsing="false" onAction="#addhourlyemployee" prefHeight="26.0" prefWidth="167.0" text="Add Hourly Employee">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="522.0" layoutY="323.0" mnemonicParsing="false" onAction="#addcommisionEmployee" prefHeight="27.0" prefWidth="186.0" text="Add Commission Employee">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminController">
+   <children>
+      <ImageView fitHeight="494.0" fitWidth="797.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@360_F_282561249_9Yl6vP6qOPvHWMGPxqJfu7C4iY30DqgC.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="275.0" layoutY="94.0" mnemonicParsing="false" onAction="#addmember" prefHeight="26.0" prefWidth="199.0" text="Add Member">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="272.0" layoutY="147.0" mnemonicParsing="false" onAction="#insalary" prefHeight="26.0" prefWidth="199.0" text="Increase Salary">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="272.0" layoutY="202.0" mnemonicParsing="false" onAction="#viewMsalary" prefHeight="26.0" prefWidth="199.0" text="View Monthly salary">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="270.0" layoutY="260.0" mnemonicParsing="false" onAction="#viewDetails" prefHeight="26.0" prefWidth="199.0" text="View Details">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="270.0" layoutY="317.0" mnemonicParsing="false" onAction="#viewMrecord" prefHeight="26.0" prefWidth="199.0" text="View Monthly Reord">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="269.0" layoutY="380.0" mnemonicParsing="false" onAction="#switchRole" prefHeight="26.0" prefWidth="199.0" text="Switch Role">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
